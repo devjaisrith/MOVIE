@@ -1,0 +1,30 @@
+h1 {text-align: center;
+font-size:xx-large;
+font-family: sans-serif;
+color:aliceblue;
+background-color:rgba(249, 245, 245, 0.5);
+display: inline-block;
+margin:auto;
+width:auto;
+border-radius: 25px;
+padding: 10px;}
+
+body {background-color: rgb(52, 1, 74);}
+
+.container  { padding-top: 100px;
+margin-top:100px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;}
+
+.container img {
+    width: 200px;
+    height: 300px;
+    object-fit:cover;
+    border-radius: 10px;
+    border:2px solid rgba(249, 245, 245, 0.5);
+    transition: all ease-in-out 0.5s;
+}
+.container img:hover {width: 250px;
+height: auto;}
