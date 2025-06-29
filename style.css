@@ -1,15 +1,6 @@
-h1 {text-align: center;
-font-size:xx-large;
-font-family: sans-serif;
-color:aliceblue;
-background-color:rgba(249, 245, 245, 0.5);
-display: inline-block;
-margin:auto;
-width:auto;
-border-radius: 25px;
-padding: 10px;}
 
-body {background-color: rgb(52, 1, 74);}
+
+body {background-color: rgba(6, 2, 58, 0.558);}
 
 .container  { padding-top: 100px;
 margin-top:100px;
@@ -28,3 +19,29 @@ gap: 30px;}
 }
 .container img:hover {width: 250px;
 height: auto;}
+
+.card{
+    width: 300px;
+    padding: 35px;;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+    border-radius: 16px;
+    margin:auto;
+}
+.card:hover {
+    transform:scale(1.05);
+}
+.card-blue:hover{
+    background-color: rgb(50, 115, 246);
+}
+.card-red:hover{
+    background-color: rgba(206, 19, 12, 0.951)}
+
+.card-navy:hover{
+    background-color: rgb(95, 166, 248);
+}
+.card-gold:hover{
+    background-color: #b76e79;
+}
+.card-yellow:hover{
+   background-color: #c2b280;
+}
